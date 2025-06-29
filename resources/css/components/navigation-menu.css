@@ -1,0 +1,38 @@
+@import 'components/navigation-menu.css';
+
+    /* Example CSS for burger menu animation and menu toggle */
+    .burger-menu {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+    }
+    .burger-menu span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+    .burger-menu span.open:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .burger-menu span.open:nth-child(2) {
+        opacity: 0;
+    }
+    .burger-menu span.open:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+    .menu {
+        transition: max-height 0.3s ease;
+        overflow: hidden;
+    }
+    .menu-closed {
+        max-height: 0;
+    }
+    .menu-open {
+        max-height: 500px; /* or enough height to show menu */
+    }

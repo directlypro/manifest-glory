@@ -9,6 +9,6 @@
 </head>
 
 <body>
-    <livewire:counter/>
+    <livewire:navigation-menu/>
 </body>
 </html>
