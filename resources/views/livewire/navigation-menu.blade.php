@@ -14,7 +14,7 @@
 
     <!-- logo -->
     <a href="#" class="menu-logo">
-        <img src="https://wweb.dev/resources/navigation-generator/logo-placeholder.png" alt="My Awesome Website" />
+        <img src="about_blank" alt="blank_image" />
     </a>
 
     <!-- menu items -->
