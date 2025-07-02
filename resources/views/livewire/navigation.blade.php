@@ -13,10 +13,10 @@
                 <div class="flex-1/4">
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-4">
-                            <a href="NOT" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                            <a href="about') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
-                            <a href="contact') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Giving</a>
-                            <a href="login') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Serve</a>
+                            <a href="NOT" class="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-md font-medium">Home</a>
+                            <a href="about') }}" class="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-md font-medium">About</a>
+                            <a href="contact') }}" class="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-md font-medium">Giving</a>
+                            <a href="login') }}" class="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-md font-medium">Serve</a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                     <!-- Profile dropdown -->
                     <div class="relative">
                         <div>
-                          <a href="register') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</a>
+                          <a href="register') }}" class="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-md font-medium">Contact Us</a>
                             <!-- <button class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm text-white focus:outline-none focus:shadow-outline-blue transition ease-in-out duration-150">
                                 <span class="sr-only">Open user menu</span>
                                 <img class="h-8 w-8 rounded-full" src="asset('images/profile.jpg') }}" alt="Profile">
