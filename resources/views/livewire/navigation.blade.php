@@ -25,7 +25,7 @@
                         <div>
                             <button class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm text-white focus:outline-none focus:shadow-outline-blue transition ease-in-out duration-150">
                                 <span class="sr-only">Open user menu</span>
-                                <img class="h-8 w-8 rounded-full" src="{{ asset('images/profile.jpg') }}" alt="Profile">
+                                <img class="h-8 w-8 rounded-full" src="asset('images/profile.jpg') }}" alt="Profile">
                             </button>
                         </div>
                     </div>
