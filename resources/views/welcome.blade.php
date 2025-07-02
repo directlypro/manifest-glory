@@ -11,5 +11,6 @@
 
 <body>
     <livewire:navigation />
+    <livewire:home-page />
 </body>
 </html>
