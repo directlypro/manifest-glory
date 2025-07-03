@@ -26,7 +26,7 @@
                     <!-- Profile dropdown -->
                     <div class="relative">
                         <div>
-                          <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-lg text-2xl font-medium">Give</button>
+                          <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-2xl text-xl font-medium">GIVE</button>
                         </div>
                     </div>
                 </div>
@@ -36,10 +36,9 @@
         <!-- Mobile menu, show/hide based on menu state -->
         <div class="sm:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
                 <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
                 <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Giving</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Serve</a>
+                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Events</a>
                 <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
             </div>
         </div>
