@@ -10,6 +10,24 @@
         <div class="mt-10">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
+                    <p class="text-gray-700 mb-4">To empower individuals and communities through education, support, and resources.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Get Involved</h2>
+                    <p class="text-gray-700 mb-4">Join us in our mission to make a difference. Volunteer or donate today!</p>
+                    <a href="#" class="text-blue-500 hover:underline">Join Us</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Success Stories</h2>
+                    <p class="text-gray-700 mb-4">Read inspiring stories of individuals whose lives have been transformed.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Stories</a>
+                </div>
+            </div>
+        <div class="mt-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h2 class="text-2xl font-semibold mb-4">About Us</h2>
                     <p class="text-gray-700 mb-4">Learn more about our mission and vision to empower lives and transform communities.</p>
                     <a href="#" class="text-blue-500 hover:underline">Read More</a>
