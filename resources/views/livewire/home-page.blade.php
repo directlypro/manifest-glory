@@ -1,7 +1,8 @@
 <div>
     <div class="flex justify-center static w-auto">
         <img src="{{ asset('/images/worship_image.jpg')}}" alt="Logo" class="w-auto">
-        <div class="absolute bg-red-500 opacity-50">
+
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 p-10 absolute bg-red-500 opacity-50">
             <div class="flex items-center justify-center h-screen">
                 <div class="text-center text-white">
                     <h1 class="text-4xl font-bold mb-4">Manifest Glory Global</h1>
@@ -10,5 +11,6 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
