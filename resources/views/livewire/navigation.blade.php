@@ -9,7 +9,7 @@
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <a href="/" class=" flex items-center space-x-2">
                         <img src="{{ asset('/images/mgg_crop.png')}}" alt="Logo" class="w-27 px-1">
-                        <span class="text-white text-2xl font-bold hidden md:inline">Manifest Glory Global</span>
+                        {{-- <span class="text-white text-2xl font-bold hidden md:inline">Manifest Glory Global</span> --}}
                     </a>
                 </div>
                 <div class="flex-1/4">
@@ -26,7 +26,7 @@
                     <!-- Profile dropdown -->
                     <div class="relative">
                         <div>
-                          <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-2xl text-xl font-medium">GIVE</button>
+                          <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-2xl text-xl font-medium">Join</button>
                         </div>
                     </div>
                 </div>
