@@ -2,7 +2,7 @@
     <div class="flex justify-center static w-auto">
         <img src="{{ asset('/images/worship_image.jpg')}}" alt="Logo" class="w-auto">
 
-            <picture>
+            {{-- <picture> --}}
                 {{-- <!-- Desktop image -->
                 <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image-desktop.jpg') }}">
                 <!-- Tablet image -->
