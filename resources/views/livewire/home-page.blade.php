@@ -9,7 +9,7 @@
                 <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image-tablet.jpg') }}">
                 <!-- Mobile image -->
                 <img src="{{ asset('/images/worship_image-mobile.jpg') }}" alt="Worship Image" class="w-auto"> --}}
-            {{-- </picture> --}}
+            {{-- </picture> this is just a comment --}}
 
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 p-10 absolute bg-red-500 opacity-50">
             <div class="flex items-center justify-center h-screen">
