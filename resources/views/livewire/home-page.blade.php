@@ -2,9 +2,9 @@
     <div class="relative flex justify-center items-center w-full h-[60vh] md:h-[80vh] overflow-hidden">
         <picture>
             <!-- Desktop image -->
-            <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image_2.jpg') }}">
+            <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image.jpg') }}">
             <!-- Tablet image -->
-            <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image.jpg') }}">
+            <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image_2.jpg') }}">
             <!-- Mobile image -->
             <img src="{{ asset('/images/worship_image.jpg') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
         </picture>
