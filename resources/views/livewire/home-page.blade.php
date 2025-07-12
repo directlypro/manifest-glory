@@ -11,8 +11,8 @@
         <!-- Overlay -->
         <div class="absolute inset-0"></div>
         <!-- Centered Content -->
-        <div class="absolute inset-0 flex flex-col items-center justify-center">
-            <div class="text-center text-white bg-gradient-to-br from-amber-600/90 via-red-400/80 to-amber-400/80 p-10 md:p-16 rounded-3xl max-w-3xl mx-4 backdrop-blur-lg shadow-2xl border border-white/20">
+        <div class="absolute inset-0 flex flex-col items-center justify-center opacity-">
+            <div class="text-center text-white bg-gradient-to-br from-amber-600/90 via-red-400/80 to-amber-400/80 p-10 md:p-16 rounded-3xl max-w-7xl mx-4 backdrop-blur-lg shadow-2xl border border-white/20">
                 <h1 class="text-2xl md:text-3xl font-semibold mb-2 tracking-wide text-amber-100 drop-shadow">Welcome to</h1>
                 <h1 class="text-4xl md:text-7xl font-extrabold mb-4 md:mb-8 leading-tight text-white drop-shadow-lg">Manifest Glory Global</h1>
                 <p class="text-lg md:text-2xl mb-4 md:mb-6 font-medium text-white/90">Join us in worship and fellowship</p>
