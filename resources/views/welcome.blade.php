@@ -12,5 +12,6 @@
 <body>
     <livewire:navigation />
     <livewire:home-page />
+    <livewire:about-section />
 </body>
 </html>
