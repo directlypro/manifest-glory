@@ -27,9 +27,29 @@
                                 About
                             </a>
 
-                             <a href="#" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-lg font-medium transition-all duration-300 transform hover:scale-105">
+                             <a href="#" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                                 Giving
                             </a>
+
+                           <div class="relative group">
+                                <a href="#" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : ' hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                    Events
+                                    <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </a>
+                                <!-- Dropdown -->
+                                <div class="absolute left-0 mt-2 w-48 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl py-2 z-20 hidden group-hover:block border border-amber-500/20">
+                                    <a href="#" class="block px-4 py-3 text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-xl mx-2 transition-all duration-300">
+                                        Upcoming
+                                    </a>
+                                    <a href="#" class="block px-4 py-3 text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-xl mx-2 transition-all duration-300">
+                                        Past Events
+                                    </a>
+                                </div>
+                            </div>
+
+                            
                         {{-- <div class="flex space-x-6">
                             <a href="#" class="{{ request()->is('about') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">About</a>
                             <a href="#" class="{{ request()->is('giving') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">Giving</a>
