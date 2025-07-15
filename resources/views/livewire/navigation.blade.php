@@ -49,22 +49,10 @@
                                 </div>
                             </div>
 
-                            
-                        {{-- <div class="flex space-x-6">
-                            <a href="#" class="{{ request()->is('about') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">About</a>
-                            <a href="#" class="{{ request()->is('giving') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">Giving</a>
-                            <div class="relative group">
-                                <a href="#" class="{{ request()->is('events*') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium inline-flex items-center">Events
-                                    <svg class="ml-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-                                </a>
-                                <!-- Dropdown -->
-                                <div class="absolute left-0 mt-2 w-40 bg-white rounded-md shadow-lg py-2 z-20 hidden group-hover:block">
-                                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Upcoming</a>
-                                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Past Events</a>
-                                </div>
-                            </div>
-                            <a href="#" class="{{ request()->is('contact') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">Contact Us</a>
-                        </div> --}}
+
+                            <a href="#" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                                Contact Us
+                            </a>
                         </div>
                     </div>
                 </div>
