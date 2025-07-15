@@ -22,7 +22,7 @@
                         and Edify the body of Christ till it Manifests His Glory.
                     </p>
                 </div>
-                <a href="/register" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+                <a href="/register" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
                     Join Now
                 </a>
             </div>
