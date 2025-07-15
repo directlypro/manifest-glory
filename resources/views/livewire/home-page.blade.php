@@ -6,7 +6,7 @@
             <!-- Tablet image -->
             <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image.jpg') }}">
             <!-- Mobile image -->
-            <img src="{{ asset('/images/worship_image.jpg') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy"> 
+            <img src="{{ asset('/images/worship_image.jpg') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
         </picture>
         <!-- Overlay -->
         <div class="absolute inset-0"></div>
