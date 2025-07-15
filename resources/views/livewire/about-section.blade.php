@@ -1,5 +1,11 @@
 <section class="relative min-h-screen py-20 px-4 sm:px-8 lg:px-24 overflow-hidden bg-gray-50">
 
+    <!-- Background Elements -->
+    <div class="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-red-500/5"></div>
+    <div class="absolute top-20 left-10 w-72 h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+    <div class="absolute top-40 right-10 w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
+    <div class="absolute bottom-20 left-1/2 w-72 h-72 bg-amber-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style="animation-delay: 4s;"></div>
+
      <!-- Main Content -->
     <div class="relative z-10">
 
