@@ -23,6 +23,14 @@
                 <div class="flex-1/4">
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-6">
+                            <a href="#" class="{{ request()->is('about') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                                About
+                            </a>
+
+                             <a href="#" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-lg font-medium transition-all duration-300 transform hover:scale-105">
+                                Giving
+                            </a>
+                        {{-- <div class="flex space-x-6">
                             <a href="#" class="{{ request()->is('about') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">About</a>
                             <a href="#" class="{{ request()->is('giving') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">Giving</a>
                             <div class="relative group">
@@ -36,6 +44,7 @@
                                 </div>
                             </div>
                             <a href="#" class="{{ request()->is('contact') ? 'bg-gray-200 text-gray-900' : 'text-gray-700' }} hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium">Contact Us</a>
+                        </div> --}}
                         </div>
                     </div>
                 </div>
