@@ -1,19 +1,8 @@
 
 <div>
     <nav class="bg-white sticky top-0 z-50 shadow" aria-label="Main Navigation">
-        <div class="
-        max-w-7xl
-        mx-auto
-        px-2
-        sm:px-6
-        lg:px-8
-        p-4">
-            <div class="
-            relative
-            flex
-            items-center
-            justify-between
-            h-16">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 p-4">
+            <div class="relative flex items-center justify-between h-16">
                 <!-- Mobile menu button -->
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
@@ -27,7 +16,7 @@
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <a href="/" class="flex items-center space-x-2 group">
                         <img src="{{ asset('/images/mgg_crop.png')}}" alt="Logo" class="w-15 h-15 transition-transform duration-300 group-hover:scale-110">
-                        <span class="text-gray-900 text-2xl font-bold hidden md:inline">Manifest Glory Global</span>
+                        <span class="text-gray-900 text-2xl font-bold hidden md:inline bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">Manifest Glory Global</span>
                     </a>
                 </div>
                 <!-- Main navigation links -->
