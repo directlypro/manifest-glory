@@ -28,7 +28,5 @@
             </div>
         </div>
 
-        <!-- Background Elements -->
-
     </div>
 </div>
