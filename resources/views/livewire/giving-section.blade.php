@@ -14,11 +14,9 @@
             <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
                 "Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap." - Luke 6:38
             </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="bg-gradient-to-r from-amber-500 to-red-500 text-white px-8 py-4 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg pulse-glow">
-                    Give Now
-                </button>
-            </div>
+            <a href="#" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+                Give Now
+            </a>
         </div>
     </div>
 </section>
