@@ -1,5 +1,5 @@
 <section class="relative pt-20 pb-16 overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-red-500/10"></div>
+    {{-- <div class="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-red-500/10"></div> --}}
 
     <!-- Floating Elements -->
     <div class="absolute top-20 left-10 w-20 h-20 bg-gradient-to-r from-amber-400 to-red-400 rounded-full opacity-20 float-animation"></div>
@@ -8,7 +8,7 @@
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 gradient-text">
                 Giving Back
             </h1>
             <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
