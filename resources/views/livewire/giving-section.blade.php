@@ -8,7 +8,7 @@
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6 gradient-text">
+            <h1 class="text-5xl md:text-6xl font-bold mb-7 tracking-tight bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">
                 Giving Back
             </h1>
             <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
