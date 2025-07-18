@@ -1,6 +1,6 @@
-<section id="banking-details" class="py-">
+<section id="banking-details">
 
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto px-4 pb-8 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-black mb-4">Banking Details</h2>
             <div class="flex justify-center">
@@ -70,6 +70,35 @@
                         <span>All donations are tax-deductible - receipts available upon request</span>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white py-6">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8">Questions About Giving?</h2>
+            <p class="text-xl text-gray-600 mb-8">Our team is here to help you find the perfect way to make an impact</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="p-6 rounded-2xl bg-amber-100 border border-amber-200/50">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Email Us</h3>
+                    <p class="text-gray-600 mb-4">giving@manifestgloryglobal.org</p>
+                    <button class="text-amber-600 hover:text-amber-800 font-semibold">Send Message →</button>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-amber-100 border border-amber-200/50">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Call Us</h3>
+                    <p class="text-gray-600 mb-4">+1 (555) 123-GIVE</p>
+                    <button class="text-amber-600 hover:text-amber-800 font-semibold">Call Now →</button>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-amber-500 to-red-500 rounded-3xl p-8 text-white">
+                <h3 class="text-2xl font-bold mb-4">Ready to Make an Impact?</h3>
+                <p class="text-lg mb-6 opacity-90">Join thousands of supporters who are helping us manifest glory globally</p>
+                <button class="bg-white text-amber-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+                    Start Giving Today
+                </button>
             </div>
         </div>
     </div>
