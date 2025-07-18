@@ -14,5 +14,6 @@
     <livewire:home-page />
     <livewire:about-section />
     <livewire:giving-section />
+    <livewire:banking-details />
 </body>
 </html>
