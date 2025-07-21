@@ -13,5 +13,8 @@
     <body>
         <livewire:navigation-bar />
         <livewire:home-page />
+        <livewire:about-section />
+        <livewire:giving-section />
+        
     </body>
 </html>
