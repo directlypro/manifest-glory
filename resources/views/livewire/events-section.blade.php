@@ -1,4 +1,4 @@
-<section class="py-16 bg-white relative">
+<section id="events" class="py-16 bg-white relative">
 
     <!-- Background Elements -->
     <div class="absolute inset-0 bg-red-500/5"></div>
