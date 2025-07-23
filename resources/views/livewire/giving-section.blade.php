@@ -1,4 +1,4 @@
-<section class="relative pt-20 pb-16 overflow-hidden">
+<section id="giving" class="relative pt-20 pb-16 overflow-hidden">
     {{-- <div class="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-red-500/10"></div> --}}
 
     <!-- Floating Elements -->
