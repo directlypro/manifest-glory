@@ -15,6 +15,14 @@ Route::get('/giving', function () {
     return view('pages.giving');
 })->name('giving');
 
+Route::get('/events', function () {
+    return view('pages.events');
+})->name('events');
+
+Route::get('/ministries', function () {
+    return view('pages.ministries');
+})->name('ministries');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
