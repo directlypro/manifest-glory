@@ -24,22 +24,22 @@
                 <div class="flex-1/4">
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-6">
-                            <a href="#about" class="{{ request()->is('about') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                            <a href="about" class="{{ request()->is('about') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                                 About
                             </a>
 
-                             <a href="#giving" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                             <a href="giving" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                                 Giving
                             </a>
 
                            <div class="relative group">
-                                <a href="#events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
                                     Events
                                 </a>
 
                             </div>
 
-                            <a href="#contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                            <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                                 Contact Us
                             </a>
                         </div>
