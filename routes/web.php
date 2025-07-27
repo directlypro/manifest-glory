@@ -23,6 +23,10 @@ Route::get('/ministries', function () {
     return view('pages.ministries');
 })->name('ministries');
 
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
