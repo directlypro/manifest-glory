@@ -20,31 +20,47 @@
                         <span class="text-gray-900 text-2xl font-bold hidden md:inline bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">Manifest Glory Global</span>
                     </a>
                 </div>
+
                 <!-- Main navigation links -->
                 <div class="flex-1/4">
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-6">
-                            <a href="about" class="{{ request()->is('about') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
-                                About
-                            </a>
-
-                             <a href="giving" class="{{ request()->is('giving') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
-                                Giving
-                            </a>
-
-                           <div class="relative group">
-                                <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
-                                    Events
+                            <div class="relative group">
+                                <a href="about"
+                                class="{{ request()->is('about*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }}
+                                        px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                    About
+                                    <svg class="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
                                 </a>
 
+                                <!-- Dropdown items -->
+                                <div class="absolute left-0 mt-2 w-48 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
+                                    <div class="py-2 px-4 space-y-2">
+                                        <a href="#about" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Statement of Faith</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Mission & Vision</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Leadership</a>
+                                    </div>
+                                </div>
                             </div>
 
-                            <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
-                                Plan a Visit
+                            <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                Ministries
                             </a>
+
+                            <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                Campus
+                            </a>
+
+                            <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                                Events
+                            </a>
+
                         </div>
                     </div>
                 </div>
+
                 <!-- Social Media & Join Button -->
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 space-x-3">
                     <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="text-gray-600 hover:text-white p-2 rounded-full hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 transition-all duration-300 transform hover:scale-110" style="filter: drop-shadow(0 0 5px rgba(245, 158, 11, 0.2));">
