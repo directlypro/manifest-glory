@@ -40,7 +40,7 @@
                             </div>
 
                             <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
-                                Contact Us
+                                Plan a Visit
                             </a>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                     <div class="relative">
                         {{-- <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-2xl text-xl font-medium">Join us</button> --}}
                         <a href="/register" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-6 py-3 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
-                            Join Now
+                            Giving
                         </a>
                     </div>
                 </div>
