@@ -15,7 +15,7 @@
             <!-- Logo -->
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <a href="/" class="flex items-center space-x-2 group">
-                    <img src="{{ asset('/images/mgg_crop.png')}}" alt="Logo" class="w-15 h-15 transition-transform duration-300 group-hover:scale-110">
+                    <img src="{{ asset('/images/mgg_crop.webp')}}" alt="Logo" class="w-15 h-15 transition-transform duration-300 group-hover:scale-110">
                     <span class="text-gray-900 text-2xl font-bold hidden md:inline bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">Manifest Glory Global</span>
                 </a>
             </div>
