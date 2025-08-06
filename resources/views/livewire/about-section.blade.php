@@ -63,8 +63,7 @@
                     </div>
                     <h4 class="text-2xl font-semibold text-black mb-4">Prophetic Positioning</h4>
                     <p class="text-gray-600 leading-relaxed">
-                        We are devoted to restoring God's divine order, preparing the Bride for Christ, and realigning the Church
-                        with the advancing Kingdom through prophetic insight and glory.
+                        We are devoted to restoring God's divine order, preparing the Bride for Christ, realigning the Church and advancing the Kingdom through prophetic insight and glory.
                     </p>
                 </div>
             </div>
