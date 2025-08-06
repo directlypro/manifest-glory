@@ -1,11 +1,11 @@
 <section class="relative items-center w-full h-[100vh] md:h-[80vh] overflow-hidden">
     <picture>
         <!-- Desktop image -->
-        <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image.jpg') }}">
+        <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image.webp') }}">
         <!-- Tablet image -->
-        <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image.jpg') }}">
+        <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image.webp') }}">
         <!-- Mobile image -->
-        <img src="{{ asset('/images/worship_image.jpg') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
+        <img src="{{ asset('/images/worship_image.webp') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
     </picture>
     <!-- Overlay -->
     <div class="absolute inset-0"></div>

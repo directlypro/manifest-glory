@@ -1,4 +1,4 @@
-<section id="banking-details" class="py-8"> 
+<section id="banking-details" class="py-8">
 
     <div class="max-w-4xl mx-auto px-4 pb-8 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
@@ -16,29 +16,29 @@
                 <div class="space-y-6">
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">
                         <h3 class="font-semibold text-gray-800 mb-2">Account Name</h3>
-                        <p class="text-lg text-gray-700">Manifest Global Church</p>
+                        <p class="text-lg text-gray-700">Manifest Global Global NPC</p>
                     </div>
 
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">
                         <h3 class="font-semibold text-gray-800 mb-2">Bank Name</h3>
-                        <p class="text-lg text-gray-700">First National Bank (FNB)</p>
+                        <p class="text-lg text-gray-700">Capitec</p>
                     </div>
 
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">
                         <h3 class="font-semibold text-gray-800 mb-2">Account Number</h3>
-                        <p class="text-lg text-gray-700 font-mono">62547891230</p>
+                        <p class="text-lg text-gray-700 font-mono">1053863578</p>
                     </div>
                 </div>
 
                 <div class="space-y-6">
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">
                         <h3 class="font-semibold text-gray-800 mb-2">Branch Code</h3>
-                        <p class="text-lg text-gray-700 font-mono">250655</p>
+                        <p class="text-lg text-gray-700 font-mono">450105</p>
                     </div>
 
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">
                         <h3 class="font-semibold text-gray-800 mb-2">Account Type</h3>
-                        <p class="text-lg text-gray-700">Current Account</p>
+                        <p class="text-lg text-gray-700">Capitec Business Account</p>
                     </div>
 
                     <div class="p-4 bg-gradient-to-r from-amber-50 to-red-50 rounded-2xl">

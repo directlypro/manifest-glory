@@ -15,7 +15,7 @@
             <!-- Logo -->
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <a href="/" class="flex items-center space-x-2 group">
-                    <img src="{{ asset('/images/mgg_crop.png')}}" alt="Logo" class="w-15 h-15 transition-transform duration-300 group-hover:scale-110">
+                    <img src="{{ asset('/images/mgg_crop.webp')}}" alt="Logo" class="w-15 h-15 transition-transform duration-300 group-hover:scale-110">
                     <span class="text-gray-900 text-2xl font-bold hidden md:inline bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">Manifest Glory Global</span>
                 </a>
             </div>
@@ -88,14 +88,14 @@
             <a href="#about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 About
             </a>
-            <a href="#giving" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
-                Giving
+            <a href="#ministries" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Ministries
+            </a>
+            <a href="#campus" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Campus
             </a>
             <a href="#events" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Events
-            </a>
-            <a href="#contact_us" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
-                Contact Us
             </a>
             <div class="flex space-x-4 pt-4 px-4">
                 <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="text-gray-600 hover:text-white p-2 rounded-full hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 transition-all duration-300">
