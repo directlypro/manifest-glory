@@ -3,6 +3,6 @@
 @section('title', 'About Us - Manifest Glory Global')
 
 @section('content')
-    <livewire:about-section />
+    <livewire:ministries />
     <!-- Add other about-specific components here -->
 @endsection

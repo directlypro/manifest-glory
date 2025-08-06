@@ -44,7 +44,7 @@
                             </div>
                         </div>
 
-                        <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                        <a href="ministries" class="{{ request()->is('ministries*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
                             Ministries
                         </a>
 
@@ -85,16 +85,25 @@
     <!-- Mobile menu -->
     <div class="sm:hidden hidden" id="mobile-menu">
         <div class="px-4 pt-2 pb-6 space-y-2 bg-white/95 backdrop-blur-md border-t border-amber-500/20">
-            <a href="#about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 About
             </a>
-            <a href="#ministries" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="statement_of_faith" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Statement of Faith
+            </a>
+            <a href="mission_and_vision" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Mission & Vision
+            </a>
+            <a href="leadership" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Leadership
+            </a>
+            <a href="ministries" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Ministries
             </a>
-            <a href="#campus" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="campus" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Campus
             </a>
-            <a href="#events" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="events" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Events
             </a>
             <div class="flex space-x-4 pt-4 px-4">
