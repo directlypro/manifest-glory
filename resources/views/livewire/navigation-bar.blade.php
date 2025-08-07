@@ -50,6 +50,19 @@
                                 <svg class="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                                 </svg>
+
+                                <!-- Dropdown items -->
+                                <div class="absolute left-0 mt-2 w-48 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
+                                    <div class="py-2 px-4 space-y-2">
+                                        <a href="#about" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Hands of Glory</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">MGG Bible School</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Glorious Women</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Men of Glory</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Worship Team</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Youth & Kids</a>
+                                        <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Dream Team</a>
+                                    </div>
+                                </div>
                             </a>
                         </div>
 
