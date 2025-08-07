@@ -44,9 +44,14 @@
                             </div>
                         </div>
 
-                        <a href="ministries" class="{{ request()->is('ministries*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
-                            Ministries
-                        </a>
+                        <div class="relative group">
+                            <a href="ministries" class="{{ request()->is('ministries*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                Ministries
+                                <svg class="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
 
                         <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
                             Campus
