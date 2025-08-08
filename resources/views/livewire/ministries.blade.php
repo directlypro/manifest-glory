@@ -24,18 +24,39 @@
     </div>
 
     <!-- Main Content -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 class="text-3xl font-bold mb-4 text-gray-900">Our Ministries</h2>
-        <p class="mb-12 text-lg text-gray-700">
-            Explore the various ministries that make up Manifest Glory Global. Each ministry plays a vital role in our mission and community.
-        </p>
+    <div class="relative">
+        <!-- Background Design Elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <!-- Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-amber-50 via-white to-red-50 opacity-70"></div>
+
+            <!-- Decorative Circles -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-amber-200 to-red-200 rounded-full opacity-20 blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-red-200 to-amber-200 rounded-full opacity-20 blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+
+            <!-- Subtle Pattern Grid -->
+            <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
+                background-size: 40px 40px;"></div>
+        </div>
+
+        <!-- Content Container -->
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <h2 class="text-5xl font-bold mb-4 text-gray-900 text-center">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-red-600">
+                    Our Ministries
+                </span>
+            </h2>
+            <p class="mb-12 text-xl text-gray-700 text-center max-w-3xl mx-auto">
+                Explore the various ministries that make up Manifest Glory Global. Each ministry plays a vital role in our mission and community.
+            </p>
 
         <!-- Ministry Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Hands of Glory -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div class="bg-gradient-to-r from-amber-500 to-red-500 h-48 flex items-center justify-center">
-                    <h3 class="text-2xl font-bold text-white">Hands of Glory</h3>
+            <div class="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 border border-white/20">
+                <div class="bg-gradient-to-r from-amber-500 to-red-500 h-48 flex items-center justify-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+                    <h3 class="text-2xl font-bold text-white relative z-10">Hands of Glory</h3>
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Our charity arm dedicated to extending help and hope to those in need. Through various outreach programs and initiatives, we aim to be the hands and feet of Jesus in our community.</p>
