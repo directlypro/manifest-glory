@@ -8,8 +8,12 @@ Route::get('/', function () {
 })->name('pages.home');
 
 Route::get('/about', function () {
-    return view('pages.about');
+    return view('pages/about-section.about');
 })->name('about');
+
+Route::get('/statement', function () {
+    return view('pages/about-section.statement');
+})->name('statement');
 
 Route::get('/giving', function () {
     return view('pages.giving');
