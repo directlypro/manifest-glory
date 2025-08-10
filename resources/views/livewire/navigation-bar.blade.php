@@ -38,8 +38,7 @@
                             <div class="absolute left-0 mt-2 w-48 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
                                 <div class="py-2 px-4 space-y-2">
                                     <a href="statement" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Statement of Faith</a>
-                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Mission & Vision</a>
-                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Leadership</a>
+                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Founders</a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +55,7 @@
                             <div class="absolute left-0 mt-2 w-48 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
                                 <div class="py-2 px-4 space-y-2">
                                     <a href="#about" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Sermons </a>
-                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Founders</a>
+                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Leadership</a>
                                 </div>
                             </div>
 
@@ -102,7 +101,7 @@
             <a href="about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 About
             </a>
-            <a href="statement_of_faith" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="statement" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Statement of Faith
             </a>
             <a href="mission_and_vision" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
