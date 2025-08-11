@@ -61,6 +61,11 @@ class Giving extends Component
         }
     }
 
+    public function submitPartnership()
+    {
+        
+    }
+
     public function render()
     {
         return view('livewire.giving');
