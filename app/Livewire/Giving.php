@@ -63,7 +63,24 @@ class Giving extends Component
 
     public function submitPartnership()
     {
-        
+        if ($this->selectedTier === 'custom' && empty($this->customAmount)) {
+            $this->addError('customAmount', 'Please enter an amount.');
+            return;
+        }
+
+        $this->validate();
+
+        // Process the partnership registration here
+        // You would typically save this to database, send emails, etc.
+
+        // For now, just show success message
+        $this->showThankYou = true;
+
+        // Reset form after successful submission
+        $this->reset();
+        $this->showThankYou = true;
+
+        session()->flash('message', 'Thank you for becoming a partner! We will contact you shortly to confirm your details.');
     }
 
     public function render()
