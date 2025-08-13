@@ -8,7 +8,7 @@ class Giving extends Component
 {
     public $firstName = '';
     public $lastName = '';
-    public $email = '';
+    public $emablil = '';
     public $phone = '';
     public $address = '';
     public $city = '';
