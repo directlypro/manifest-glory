@@ -38,7 +38,7 @@
                 <div class="group relative overflow-hidden  bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg">
                     <div>
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                            <img src=""
                                   alt="Kennedy Mahoko"
                                   class="w-full h-full object-cover">
                         </div>
@@ -47,7 +47,7 @@
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">Kennedy Mahoko</h3>
                             <p class="text-amber-500 font-semibold mb-4 text-lg">Lead Pastor</p>
                             <p class="text-gray-600 leading-relaxed mb-6">
-                                Leading our congregation with wisdom, compassion, and unwavering faith. Dedicated to spiritual growth and community building.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, delectus officiis eaque itaque debitis ab.
                             </p>
                         </div>
                     </div>
@@ -57,8 +57,8 @@
                 <div class="group relative overflow-hidden  bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg">
                     <div>
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                                  alt="Leigh"
+                            <img src=""
+                                  alt="Leigh Mahoko"
                                   class="w-full h-full object-cover">
                         </div>
 
@@ -66,7 +66,7 @@
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">Leigh Mahoko</h3>
                             <p class="text-amber-500 font-semibold mb-4 text-lg">Overseer</p>
                             <p class="text-gray-600 leading-relaxed mb-6">
-                                Leading our congregation with wisdom, compassion, and unwavering faith. Dedicated to spiritual growth and community building.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro minus possimus repellendus debitis doloremque obcaecati!
                             </p>
                         </div>
                     </div>
