@@ -15,10 +15,10 @@
             <div class="backdrop-blur-md bg-white/10 rounded-2xl p-6 mb-4 shadow-2xl"
                  style="border: 1px solid rgba(255, 255, 255, 0.18);">
                 <h1 class="text-5xl md:text-6xl font-bold text-white tracking-wide">
-                    Leadership
+                    Founders
                 </h1>
                 <p class="text-xl md:text-2xl pt-3 text-white/90 max-w-3xl">
-                    Dedicated servants who guide our community with wisdom and faith.
+                    Visionary leaders who established our ministry's foundation.
                 </p>
             </div>
         </div>
