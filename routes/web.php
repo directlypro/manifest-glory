@@ -15,10 +15,6 @@ Route::get('/statement', function () {
     return view('pages/about-section.statement');
 })->name('statement');
 
-Route::get('/founders', function () {
-    return view('pages/about-section.founders');
-})->name('founders');
-
 Route::get('/leadership', function () {
     return view('pages/about-section.leadership');
 })->name('leadership');

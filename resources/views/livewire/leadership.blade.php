@@ -24,5 +24,56 @@
         </div>
     </div>
 
-    
+    <!-- Leadership Cards Section -->
+    <div class="py-16 px-4 bg-gradient-to-b from-slate-50 to-white">
+        <div class="max-w-7xl mx-auto">
+            <!-- Main Leadership -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Leadership</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-amber-500 to-red-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
+                <!-- PS.K Card -->
+                <div class="group relative overflow-hidden  bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg">
+                    <div>
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                                  alt="Kennedy Mahoko"
+                                  class="w-full h-full object-cover">
+                        </div>
+
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Kennedy Mahoko</h3>
+                            <p class="text-amber-500 font-semibold mb-4 text-lg">Lead Pastor</p>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Leading our congregation with wisdom, compassion, and unwavering faith. Dedicated to spiritual growth and community building.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leigh's Card -->
+                <div class="group relative overflow-hidden  bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg">
+                    <div>
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                                  alt="Leigh"
+                                  class="w-full h-full object-cover">
+                        </div>
+
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-2">Leigh Mahoko</h3>
+                            <p class="text-amber-500 font-semibold mb-4 text-lg">Overseer</p>
+                            <p class="text-gray-600 leading-relaxed mb-6">
+                                Leading our congregation with wisdom, compassion, and unwavering faith. Dedicated to spiritual growth and community building.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
 </div>
