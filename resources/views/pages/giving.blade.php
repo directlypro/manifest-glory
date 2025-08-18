@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Giving - Manifest Glory Global')
+@section('title', 'Campuses - Manifest Glory Global')
 
 @section('content')
-    <livewire:giving />
+    <livewire:campus />
 @endsection
