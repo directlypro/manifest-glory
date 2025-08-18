@@ -19,6 +19,14 @@ Route::get('/leadership', function () {
     return view('pages/about-section.leadership');
 })->name('leadership');
 
+Route::get('/campus', function () {
+    return view('pages.campus');
+})->name('campus');
+
+Route::get('/sermons', function () {
+    return view('pages.sermons');
+})->name('sermons');
+
 Route::get('/giving', function () {
     return view('pages.giving');
 })->name('giving');
