@@ -1,4 +1,4 @@
-<div class=min-h-screen>
+<div class=>
 
     <!-- Hero Section with Background Image -->
     <div class="relative h-[400px] w-full">
