@@ -3,7 +3,7 @@
         <!-- Header Section -->
         <div class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                Become a Partnership Partner
+                Partner with the Ministry 
             </h1>
             <p class="text-xl text-gray-700 max-w-3xl mx-auto">
                 Join us in making a difference through your faithful partnership. Your contribution helps us spread the Gospel and serve our community.

@@ -59,7 +59,7 @@
                          alt="Hands of Glory Ministry"
                          class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
-                    <h3 class="text-2xl font-bold text-white absolute bottom-4 left-6 z-10">Hands of Glory</h3>
+                    <h3 class="text-2xl font-bold text-white absolute bottom-4 left-6 z-10">Hands of Glory Foundation</h3>
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Our charity arm dedicated to extending help and hope to those in need. Through various outreach programs and initiatives, we aim to be the hands and feet of Jesus in our community.</p>

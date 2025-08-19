@@ -53,7 +53,7 @@
                             Campus
                         </a>
 
-                        <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                        <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                             Events
                         </a>
 
