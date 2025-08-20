@@ -3,7 +3,7 @@
         <!-- Header Section -->
         <div class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                Partner with the Ministry 
+                Partner with the Ministry
             </h1>
             <p class="text-xl text-gray-700 max-w-3xl mx-auto">
                 Join us in making a difference through your faithful partnership. Your contribution helps us spread the Gospel and serve our community.
@@ -253,7 +253,7 @@
                         </div>
 
                         <div>
-                            <label class="block text-gray-700 font-medium mb-2">Bank Name *</label>
+                            <label class="block text-gray-700 font-medium mb-2">Bank Name  *</label>
                             <input type="text"
                                    wire:model="bankName"
                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
