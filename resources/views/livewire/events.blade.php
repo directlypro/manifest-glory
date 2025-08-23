@@ -15,29 +15,54 @@
             <div class="fixed inset-0 bg-black opacity-50"></div>
 
             <!-- Modal -->
-            <div class="relative bg-white rounded-lg max-w-lg w-full mx-auto shadow-xl z-50">
-                <!-- Close Button -->
-                <button wire:click="closePopup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 ">
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                    </svg>
-                </button>
+            <div class="relative max-w-2xl w-full mx-auto z-50">
+                <div class="text-center text-white bg-white/20 rounded-3xl overflow-hidden backdrop-blur-xl shadow-2xl border border-white/30"
+                     style="backdrop-filter: blur(18px) saturate(160%) brightness(0.9); background-clip: padding-box;">
 
-                <!-- Content -->
-                <div class="p-6">
-                    <img src="/images/service_image.webp" alt="Upcoming Event" class="w-full p-4">
-                    <h2 class="text-2xl font-bold mb-2">First Sunday Service</h2>
-                    <p class="text-gray-600 mb-4">Join us for a night of worship and fellowship on September 7th, 2025. Experience the presence of God with our worship team and Pastor Kennedy.</p>
+                    <!-- Close Button -->
+                    <button wire:click="closePopup" class="absolute top-4 right-4 text-white/90 hover:text-white z-50 bg-black/20 hover:bg-black/30 rounded-full p-2 backdrop-blur-sm transition-all duration-300">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
 
-                    <!-- External Link Button -->
-                    <div class="mt-6">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWQGBdnIBv70lo3_-XCj_Pn7LKs_R_hyCHHWEU2Aa9MWGMMw/viewform"
-                           class="block w-full bg-amber-600 text-white text-center rounded-md py-3 px-4 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition duration-150 ease-in-out">
-                            RSVP for Event
-                        </a>
-                        <p class="text-sm text-gray-500 mt-2 text-center">
-                            Click to register on our external registration platform
-                        </p>
+                    <!-- Image Section -->
+                    <div class="relative overflow-hidden">
+                        <img src="{{ asset('/images/service_image.webp') }}" alt="Worship Service" class="w-full">
+                        <div class="absolute inset-0"></div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-2 md:p-4">
+                        <!-- Header -->
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-lg">
+                            Sunday Service
+                        </h2>
+
+                        <!-- Date Badge -->
+                        <div class="inline-block px-4 py-1 bg-white/10 backdrop-blur-md rounded-full text-white/90 text-lg font-medium mb-6">
+                            07.09.2025
+                        </div>
+
+                        <!-- Main Content -->
+                        <div class="space-y-6">
+                            <p class="text-white/90 text-lg">
+                                Join us for our first in-person Sunday Worship Service at our new location! Experience powerful worship, inspiring messages, and a vibrant community as we come together to celebrate faith and fellowship.
+                            </p>
+
+                            <!-- RSVP Button -->
+                            <div class="mt-2">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWQGBdnIBv70lo3_-XCj_Pn7LKs_R_hyCHHWEU2Aa9MWGMMw/viewform"
+                                   target="_blank"
+                                   class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60"
+                                   style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+                                    RSVP NOW
+                                </a>
+                                <p class="text-sm text-white/70 mt-3">
+                                    Secure your spot for this powerful service
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
