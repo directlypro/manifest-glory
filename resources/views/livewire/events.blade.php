@@ -2,7 +2,7 @@
     <!-- Event Popup -->
     <div x-data="{ show: @entangle('showEventPopup') }"
          x-show="show"
-         x-transition:enter="transition ease-out duration-300"
+         x-transition:enter="transition ease-out duration-900"
          x-transition:enter-start="opacity-0"
          x-transition:enter-end="opacity-100"
          x-transition:leave="transition ease-in duration-200"
@@ -41,7 +41,7 @@
 
                         <!-- Date Badge -->
                         <div class="inline-block px-4 py-1 bg-white/10 backdrop-blur-md rounded-full text-white/90 text-lg font-medium mb-6">
-                            07.09.2025
+                            {{ \Carbon\Carbon::parse($eventDate)->format('d.m.Y') }}
                         </div>
 
                         <!-- Main Content -->
