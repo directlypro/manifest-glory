@@ -2,6 +2,6 @@
 
 @section('title', 'Events - Manifest Glory Global')
 
-@section('events')
+@section('content')
     <livewire:events />
 @endsection
