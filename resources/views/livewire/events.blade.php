@@ -228,39 +228,39 @@
                 <p class="text-xl text-gray-600 pt-4">Moments captured during our past events</p>
             </div>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
                 <!-- Gallery Image 1 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&auto=format&fit=crop&q=60"
-                        alt="Worship Service"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('/images/retreat_image1.webp') }}"
+                        alt="Prayer Retreat"
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Worship Night</p>
+                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Prayer Retreat</p>
                 </div>
 
                 <!-- Gallery Image 2 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&auto=format&fit=crop&q=60"
-                        alt="Prayer Meeting"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('/images/hinking_image.webp') }}"
+                        alt="Hiking Trip"
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Prayer Meeting</p>
+                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Hiking Trip</p>
                 </div>
 
                 <!-- Gallery Image 3 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&auto=format&fit=crop&q=60"
-                        alt="Bible Study"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('/images/baptism.webp') }}"
+                        alt="Baptism"
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Bible Study</p>
+                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Baptism</p>
                 </div>
 
-                <!-- Gallery Image 4 -->
+                {{-- <!-- Gallery Image 4 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
                     <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60"
                         alt="Fellowship"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Fellowship</p>
                 </div>
@@ -269,7 +269,7 @@
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
                     <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&auto=format&fit=crop&q=60"
                         alt="Praise Team"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Praise Team</p>
                 </div>
@@ -278,28 +278,10 @@
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
                     <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&auto=format&fit=crop&q=60"
                         alt="Youth Service"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Youth Service</p>
-                </div>
-
-                <!-- Gallery Image 7 -->
-                <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="https://images.unsplash.com/photo-1607057984497-5682d95c7dbc?w=800&auto=format&fit=crop&q=60"
-                        alt="Community Service"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Community Service</p>
-                </div>
-
-                <!-- Gallery Image 8 -->
-                <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="https://images.unsplash.com/photo-1585858229735-cd08d8cb0e63?w=800&auto=format&fit=crop&q=60"
-                        alt="Outreach"
-                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Outreach</p>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
