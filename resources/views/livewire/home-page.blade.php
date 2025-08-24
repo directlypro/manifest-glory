@@ -37,7 +37,7 @@
                     <div class="p-2 md:p-4">
                         <!-- Header -->
                         <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-lg">
-                            Sunday Service
+                            First Sunday Service
                         </h2>
 
                         <!-- Date Badge -->
