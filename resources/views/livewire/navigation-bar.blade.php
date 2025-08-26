@@ -2,7 +2,20 @@
 <nav class="bg-white sticky top-0 z-50 shadow" aria-label="Main Navigation">
 
     <!-- Event Popup -->
-    <div x-data="{ show: @entangle('showEventPopup') }"
+    <div x-data="{
+            show: @entangle('showEventPopup'),
+            init() {
+                // Check if popup has been shown before
+                if (!localStorage.getItem('popupShown')) {
+                    // Set timeout for 5 seconds
+                    setTimeout(() => {
+                        this.show = true;
+                        // Mark popup as shown
+                        localStorage.setItem('popupShown', 'true');
+                    }, 5000);
+                }
+            }
+        }"
          x-show="show"
          x-transition:enter="transition ease-out duration-900"
          x-transition:enter-start="opacity-0"
