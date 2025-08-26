@@ -42,7 +42,7 @@
                 <!-- Buttons -->
                 <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
                     <!-- Primary CTA Button with Enhanced Styling -->
-                    <a href="https://maps.google.com/?q=37+Karee+Lane+Witport+Midrand"
+                    <a href="https://maps.app.goo.gl/t7bJbaQy7tHVVGJd7"
                         target="_blank"
                         class="inline-flex items-center bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:from-amber-600 hover:via-orange-600 hover:to-red-600 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-110 shadow-2xl border-2 border-amber-400/50 hover:border-amber-300"
                         style="filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.4));">
@@ -53,7 +53,7 @@
                     </a>
 
                     <!-- Secondary Button -->
-                    <a href="/homecell"
+                    <a href="#"
                         class="inline-flex items-center text-white hover:text-amber-300 px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white/40 hover:border-white/60"
                         style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
                         <svg class="w-6 h-6 mr-3 transform hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,6 +76,37 @@
                 Located in the heart of Midrand, easily accessible from major routes
             </p>
             <div class="w-20 h-1 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full mx-auto mt-6"></div>
+        </div>
+
+        <!-- Enhanced Map Container -->
+        <div class="rounded-3xl overflow-hidden shadow-2xl border border-white/20 mb-12"
+                style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
+
+            <!-- Map Header Bar -->
+            <div class="bg-gradient-to-r from-slate-800/90 to-slate-700/90 p-6 border-b border-white/10">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+                        <div class="w-3 h-3 bg-yellow-400 rounded-full animate-pulse" style="animation-delay: 0.5s;"></div>
+                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse" style="animation-delay: 1s;"></div>
+                    </div>
+                    <div class="text-white/70 text-sm font-mono bg-slate-900/50 px-3 py-1 rounded-full">
+                        📍 Kyalami Venue - Interactive Map
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Embed -->
+            <div class="relative w-full h-0" style="padding-bottom: 56.25%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.7912017854514!2d28.06379633417348!3d-25.987326733235697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9571078c8da0eb%3A0xfaddad52cff80623!2sKyalami%20Venue!5e1!3m2!1sen!2sza!4v1756235461836!5m2!1sen!2sza"
+                    class="absolute inset-0 w-full h-full hover:brightness-110 transition-all duration-300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
     </div>
 </div>
