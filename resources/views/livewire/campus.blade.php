@@ -44,7 +44,7 @@
                     <!-- Primary CTA Button with Enhanced Styling -->
                     <a href="https://maps.app.goo.gl/t7bJbaQy7tHVVGJd7"
                         target="_blank"
-                        class="inline-flex items-center bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:from-amber-600 hover:via-orange-600 hover:to-red-600 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-110 shadow-2xl border-2 border-amber-400/50 hover:border-amber-300"
+                        class="inline-flex items-center bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:from-amber-600 hover:via-orange-600 hover:to-red-600 text-white px-8 py-5 rounded-full text-xl font-bold transition-all duration-300 transform sm:px-8 hover:scale-110 shadow-2xl border-2 border-amber-400/50 hover:border-amber-300"
                         style="filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.4));">
                         <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-1.447-.894L15 4m0 13V4m-6 3l6-3"></path>
@@ -54,7 +54,7 @@
 
                     <!-- Secondary Button -->
                     <a href="#"
-                        class="inline-flex items-center text-white hover:text-amber-300 px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white/40 hover:border-white/60"
+                        class="inline-flex items-center text-white hover:text-amber-300 px-8 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white/40 hover:border-white/60"
                         style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
                         <svg class="w-6 h-6 mr-3 transform hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -72,7 +72,7 @@
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
                 Find Us on the Map
 
-            <p class="text-xl text-gray-300 max-w-2xl font-medium mx-auto leading-relaxed">
+            <p class="text-xl text-gray-300 max-w-2xl font-light mx-auto leading-relaxed">
                 Located in the heart of Midrand, easily accessible from major routes
             </p>
             <div class="w-20 h-1 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full mx-auto mt-6"></div>
