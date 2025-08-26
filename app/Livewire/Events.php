@@ -3,7 +3,6 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-use Carbon\Carbon;
 
 class Events extends Component
 {
