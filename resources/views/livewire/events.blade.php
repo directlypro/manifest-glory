@@ -185,7 +185,7 @@
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Baptism</p>
                 </div>
 
-                {{-- <!-- Gallery Image 4 -->
+                <!-- Gallery Image 4 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
                     <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&auto=format&fit=crop&q=60"
                         alt="Fellowship"
@@ -194,7 +194,7 @@
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Fellowship</p>
                 </div>
 
-                <!-- Gallery Image 5 -->
+                {{-- <!-- Gallery Image 5 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
                     <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&auto=format&fit=crop&q=60"
                         alt="Praise Team"
