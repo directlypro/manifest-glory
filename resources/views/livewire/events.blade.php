@@ -183,6 +183,7 @@
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Baptism</p>
+
                 </div>
 
                 {{-- <!-- Gallery Image 4 -->
@@ -211,6 +212,7 @@
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <p class="absolute bottom-4 left-4 text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">Youth Service</p>
                 </div> --}}
+
             </div>
         </div>
     </section>
