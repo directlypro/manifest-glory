@@ -5,7 +5,7 @@
 # Default target
 .DEFAULT_GOAL := help
 
-# Development server
+# Development servers
 dev:
 	composer run dev
 
