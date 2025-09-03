@@ -47,7 +47,7 @@
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">Kennedy Mahoko</h3>
                             <p class="text-amber-500 font-semibold mb-4 text-lg">Lead Pastor</p>
                             <p class="text-gray-600 leading-relaxed mb-6">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, delectus officiis eaque itaque debitis ab.
+                                Lorem,ipsum dolor sit amet consectetur adipisicing elit. Explicabo, delectus officiis eaque itaque debitis ab.
                             </p>
                         </div>
                     </div>
