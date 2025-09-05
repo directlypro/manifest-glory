@@ -26,7 +26,7 @@
                 </div>
                 <div>
                     <p class="text-gray-300 font-medium">Our Location</p>
-                    <p class="text-gray-400 text-sm">123 Faith Street<br>Community City, CC 12345</p>
+                    <a href="https://maps.app.goo.gl/t7bJbaQy7tHVVGJd7" class="text-gray-400 text-sm hover:text-amber-400 transition-colors">Kyalami Venue<br>37 Karee Lane Witport, Midrand</p>
                 </div>
                 </div>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div>
                     <p class="text-gray-300 font-medium">Call Us</p>
-                    <p class="text-gray-400 text-sm">011-123-4567</p>
+                    <a href="tel:+27792981634" class="text-gray-400 text-sm hover:text-amber-400 transition-colors">+27-79-298-1634</a>
                 </div>
                 </div>
 
@@ -54,7 +54,7 @@
                 </div>
                 <div>
                     <p class="text-gray-300 font-medium">Email Us</p>
-                    <p class="text-gray-400 text-sm">info@manifestgloryglobal.com</p>
+                    <a href="mailto:info@manifestgloryglobal.org" class="text-gray-400 text-sm hover:text-amber-400 transition-colors">info@manifestgloryglobal.org</a>
                 </div>
                 </div>
             </div>
@@ -94,6 +94,7 @@
                     <a href="#" class="hover:text-amber-400 transition-colors duration-300">Privacy Policy</a>
                     <a href="#" class="hover:text-amber-400 transition-colors duration-300">Terms of Service</a>
                     <a href="#" class="hover:text-amber-400 transition-colors duration-300">Sitemap</a>
+                    <a href="https://github.com/directlypro" class="text-blue-200 hover:text-amber-400 transition-colors duration-300">Developed by Providence ☻</a>
                 </div>
                 </div>
             </div>
