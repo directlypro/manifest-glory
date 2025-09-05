@@ -26,7 +26,7 @@
                 </div>
                 <div>
                     <p class="text-gray-300 font-medium">Our Location</p>
-                    <p class="text-gray-400 text-sm">Kyalami Venue<br>37 Karee Lane Witport, Midrand</p>
+                    <a href="https://maps.app.goo.gl/t7bJbaQy7tHVVGJd7" class="text-gray-400 text-sm hover:text-amber-400 transition-colors">Kyalami Venue<br>37 Karee Lane Witport, Midrand</p>
                 </div>
                 </div>
 
