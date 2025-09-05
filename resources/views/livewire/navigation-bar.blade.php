@@ -1,6 +1,92 @@
 
 <nav class="bg-white sticky top-0 z-50 shadow" aria-label="Main Navigation">
 
+    <!-- Event Popup -->
+    <div x-data="{
+            show: @entangle('showEventPopup'),
+            init() {
+                // Check if popup has been shown before
+                if (!localStorage.getItem('popupShown')) {
+                    // Set timeout for 5 seconds
+                    setTimeout(() => {
+                        this.show = true;
+                        // Mark popup as shown
+                        localStorage.setItem('popupShown', 'true');
+                    }, 5000);
+                }
+            }
+        }"
+         x-show="show"
+         x-transition:enter="transition ease-out duration-900"
+         x-transition:enter-start="opacity-0"
+         x-transition:enter-end="opacity-100"
+         x-transition:leave="transition ease-in duration-300"
+         x-transition:leave-start="opacity-100"
+         x-transition:leave-end="opacity-0"
+         class="fixed inset-0 z-50 overflow-y-auto"
+         style="display: none;">
+        <div class="flex items-center justify-center min-h-screen px-4">
+            <!-- Backdrop -->
+            <div class="fixed inset-0 bg-black opacity-50"></div>
+
+            <!-- Modal -->
+            <div class="relative max-w-2xl w-full mx-auto z-50">
+                <div class="text-center text-white bg-white/20 rounded-3xl overflow-hidden backdrop-blur-xl shadow-2xl border border-white/30"
+                     style="backdrop-filter: blur(18px) saturate(160%) brightness(0.9); background-clip: padding-box;">
+
+                    <!-- Close Button -->
+                    <button wire:click="closePopup" class="absolute top-4 right-4 text-white/90 hover:text-white z-50 bg-black/20 hover:bg-black/30 rounded-full p-2 backdrop-blur-sm transition-all duration-300">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+
+                    <!-- Image Section -->
+                    <div class="relative overflow-hidden">
+                        <img src="{{ asset('/images/service_image.webp') }}" alt="Worship Service" class="w-full">
+                        <div class="absolute inset-0"></div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-2 md:p-4">
+                        <!-- Header -->
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-lg">
+                            First Sunday Service
+                        </h2>
+
+                        <!-- Date Badge -->
+                        <div class="inline-block px-4 py-1 bg-white/10 backdrop-blur-md rounded-full text-white/90 text-lg font-medium mb-6">
+                            {{ \Carbon\Carbon::parse($eventDate)->format('d.m.Y') }}
+                        </div>
+
+                        <!-- Main Content -->
+                        <div class="space-y-6">
+                            <p class="text-white/90 text-lg">
+                                Join us for our first in-person Sunday Worship Service at our new location! Experience powerful worship, inspiring messages, and a vibrant community as we come together to celebrate faith and fellowship.
+                            </p>
+
+                            <!-- RSVP Button -->
+                            <div class="mt-2">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWQGBdnIBv70lo3_-XCj_Pn7LKs_R_hyCHHWEU2Aa9MWGMMw/viewform"
+                                   target="_blank"
+                                   class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60"
+                                   style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+                                    RSVP NOW
+                                </a>
+                                <p class="text-sm text-white/70 mt-3">
+                                    Secure your spot for this powerful service
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 p-4">
         <div class="relative flex items-center justify-between h-16">
             <!-- Mobile menu button -->
@@ -35,24 +121,25 @@
                             </a>
 
                             <!-- Dropdown items -->
-                            <div class="absolute left-0 mt-2 w-48 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
+                            <div class="absolute left-0 mt-2 w-58 rounded-xl bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out z-50">
                                 <div class="py-2 px-4 space-y-2">
-                                    <a href="#about" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Statement of Faith</a>
-                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Mission & Vision</a>
-                                    <a href="#" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Leadership</a>
+                                    <a href="statement" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Statement of Faith</a>
+                                    <a href="leadership" class="block px-4 py-2 text-lg text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white rounded-lg transition-colors duration-200">Leadership</a>
                                 </div>
                             </div>
                         </div>
 
-                        <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
-                            Ministries
-                        </a>
+                        <div class="relative group">
+                            <a href="ministries" class="{{ request()->is('ministries*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                                Ministries
+                            </a>
+                        </div>
 
-                        <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                        <a href="campus" class="{{ request()->is('campus*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
                             Campus
                         </a>
 
-                        <a href="contact_us" class="{{ request()->is('contact') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
+                        <a href="events" class="{{ request()->is('events*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }} px-4 py-2 rounded-xl text-xl font-medium transition-all duration-300 transform hover:scale-105">
                             Events
                         </a>
 
@@ -74,7 +161,7 @@
                 </a>
                 <div class="relative">
                     {{-- <button class="bg-amber-300 text-white hover:bg-amber-500 hover:text-gray-100 px-7 py-2 rounded-2xl text-xl font-medium">Join us</button> --}}
-                    <a href="/register" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-6 py-3 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+                    <a href="giving" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-6 py-3 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
                         Giving
                     </a>
                 </div>
@@ -85,16 +172,22 @@
     <!-- Mobile menu -->
     <div class="sm:hidden hidden" id="mobile-menu">
         <div class="px-4 pt-2 pb-6 space-y-2 bg-white/95 backdrop-blur-md border-t border-amber-500/20">
-            <a href="#about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 About
             </a>
-            <a href="#ministries" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="statement" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Statement of Faith
+            </a>
+            <a href="leadership" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+                Leadership
+            </a>
+            <a href="ministries" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Ministries
             </a>
-            <a href="#campus" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="campus" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Campus
             </a>
-            <a href="#events" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="events" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Events
             </a>
             <div class="flex space-x-4 pt-4 px-4">

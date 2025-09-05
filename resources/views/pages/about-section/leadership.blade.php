@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'About Us - Manifest Glory Global')
+@section('title', 'Leadership - Manifest Glory Global')
 
 @section('content')
-    <livewire:ministries />
+    <livewire:leadership />
     <!-- Add other about-specific components here -->
 @endsection

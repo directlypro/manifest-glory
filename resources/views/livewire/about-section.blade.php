@@ -12,8 +12,21 @@
         <!-- The Call Section -->
         <div class="max-w-5xl mx-auto text-center mb-24">
             <h2 class="text-5xl md:text-6xl font-bold mb-6 tracking-tight bg-gradient-to-r from-amber-500 to-red-500 bg-clip-text text-transparent">
+                Vision
+            </h2>
+                <p class="text-xl leading-relaxed px-7 text-gray-700 max-w-4xl mx-auto">
+                    To Equip the nations for the work of the ministry<br>
+                    and Edify the body of Christ till it Manifests His Glory.
+                </p>
+
+            <h2 class="text-4xl font-bold pt-7 text-black mb-4">
                 The Call
             </h2>
+            <div class="flex justify-center">
+                <div class="h-1 w-32 bg-gradient-to-r from-amber-500 to-red-500 rounded-full relative">
+                    <div class="absolute inset-0 h-1 w-32 bg-gradient-to-r from-amber-500 to-red-500 rounded-full animate-pulse"></div>
+                </div>
+            </div>
 
             <p class="text-xl leading-relaxed text-gray-700 max-w-4xl mx-auto ">
                 We are a church commissioned with an apostolic mantle and a prophetic mandate for this generation.
@@ -63,8 +76,7 @@
                     </div>
                     <h4 class="text-2xl font-semibold text-black mb-4">Prophetic Positioning</h4>
                     <p class="text-gray-600 leading-relaxed">
-                        We are devoted to restoring God's divine order, preparing the Bride for Christ, and realigning the Church
-                        with the advancing Kingdom through prophetic insight and glory.
+                        We are devoted to restoring God's divine order, preparing the Bride for Christ, realigning the Church and advancing the Kingdom through prophetic insight and glory.
                     </p>
                 </div>
             </div>

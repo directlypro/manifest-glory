@@ -3,10 +3,11 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-class HomePage extends Component
+
+class Campus extends Component
 {
     public function render()
     {
-        return view('livewire.home-page');
+        return view('livewire.campus');
     }
 }
