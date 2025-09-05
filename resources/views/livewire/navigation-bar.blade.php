@@ -178,9 +178,6 @@
             <a href="statement" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Statement of Faith
             </a>
-            <a href="mission_and_vision" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
-                Mission & Vision
-            </a>
             <a href="leadership" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 Leadership
             </a>
