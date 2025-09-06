@@ -63,12 +63,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Our charity arm dedicated to extending help and hope to those in need. Through various outreach programs and initiatives, we aim to be the hands and feet of Jesus in our community.</p>
-                    <div class="flex items-center mb-4">
-                        <a href="/ministries/hands-of-glory" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
+                    {{-- <div class="flex items-center mb-4">
+                        <a class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -86,12 +86,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Equipping believers with deep biblical knowledge and practical ministry skills. Our comprehensive programs cater to all levels of spiritual growth.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/bible-school" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -109,12 +109,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">A ministry empowering women to walk in their God-given purpose. Through fellowship, mentorship, and spiritual growth activities, we build strong, faithful women of God.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/glorious-women" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -132,12 +132,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Fostering brotherhood and spiritual leadership among men. We focus on developing godly character, leadership skills, and strong faith foundations.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/men-of-glory" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -155,12 +155,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Leading the congregation in powerful worship experiences. Our team combines musical excellence with spiritual sensitivity to create an atmosphere of divine presence.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/worship-team" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -178,12 +178,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Empowering the next generation with biblical truth and practical life skills. Our youth ministry creates a safe space for young people to grow in faith and fellowship.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/youth" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -201,12 +201,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Creating fun and engaging environments where children can discover God's love. Through age-appropriate activities, we help build strong spiritual foundations.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/kids" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>
@@ -224,12 +224,12 @@
                 </div>
                 <div class="p-6">
                     <p class="text-gray-600 mb-4">Our dedicated volunteer team serving in various capacities. The Dream Team is the backbone of our church operations, making every service and event possible.</p>
-                    <div class="flex items-center mb-4">
+                    {{-- <div class="flex items-center mb-4">
                         <a href="/ministries/dream-team" class="text-amber-500 hover:text-red-500 font-semibold">Read More</a>
                         <svg class="w-4 h-4 ml-1 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
                         </svg>
-                    </div>
+                    </div> --}}
                     <button class="w-full bg-gradient-to-r from-amber-500 to-red-500 text-white py-2 rounded-lg hover:from-amber-600 hover:to-red-600 transition-all duration-300">
                         Join Ministry
                     </button>

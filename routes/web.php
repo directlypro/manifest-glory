@@ -11,6 +11,10 @@ Route::get('/about', function () {
     return view('pages/about-section.about');
 })->name('about');
 
+Route::get('/about-us', function () {
+    return view('pages/about-section.about-us');
+})->name('about-us');
+
 Route::get('/statement', function () {
     return view('pages/about-section.statement');
 })->name('statement');

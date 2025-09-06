@@ -91,9 +91,7 @@
                     © 2025 Manifest Glory Global. All rights reserved.
                 </div>
                 <div class="flex space-x-6 text-sm text-gray-400">
-                    <a href="#" class="hover:text-amber-400 transition-colors duration-300">Privacy Policy</a>
-                    <a href="#" class="hover:text-amber-400 transition-colors duration-300">Terms of Service</a>
-                    <a href="#" class="hover:text-amber-400 transition-colors duration-300">Sitemap</a>
+                    <a href="/" class="hover:text-amber-400 transition-colors duration-300">Sitemap</a>
                     <a href="https://github.com/directlypro" class="text-blue-200 hover:text-amber-400 transition-colors duration-300">Developed by Providence ☻</a>
                 </div>
                 </div>

@@ -111,8 +111,8 @@
                 <div class="hidden sm:block sm:ml-6">
                     <div class="flex space-x-6">
                         <div class="relative group">
-                            <a href="about"
-                            class="{{ request()->is('about*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }}
+                            <a href="about-us"
+                            class="{{ request()->is('about-us*') ? 'bg-gradient-to-r from-amber-500 to-red-500 text-gray-700 shadow-lg' : 'hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white' }}
                                     px-4 py-2 rounded-xl text-xl font-medium inline-flex items-center transition-all duration-300 transform hover:scale-105">
                                 About
                                 <svg class="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -172,7 +172,7 @@
     <!-- Mobile menu -->
     <div class="sm:hidden hidden" id="mobile-menu">
         <div class="px-4 pt-2 pb-6 space-y-2 bg-white/95 backdrop-blur-md border-t border-amber-500/20">
-            <a href="about" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
+            <a href="about-us" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">
                 About
             </a>
             <a href="statement" class="text-gray-700 hover:bg-gradient-to-r hover:from-amber-500 hover:to-red-500 hover:text-white block px-4 py-3 rounded-xl text-lg font-medium transition-all duration-300">

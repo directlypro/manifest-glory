@@ -1,4 +1,24 @@
 <div>
+    <div class="relative h-[400px] w-full">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 alt="Worship Service"
+                 class="h-full w-full object-cover"
+                 style="max-height: 600px;">
+            <!-- Overlay to make text more readable -->
+            <div class="absolute inset-0 bg-opacity-500"></div>
+        </div>
+        <!-- Hero Text -->
+        <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
+            <div class="backdrop-blur-md bg-white/10 rounded-2xl p-6 mb-4 shadow-2xl"
+                 style="border: 1px solid rgba(255, 255, 255, 0.18);">
+                <h1 class="text-5xl md:text-6xl font-bold text-white tracking-wide">
+                    About Us
+                </h1>
+            </div>
+        </div>
+    </div>
+
     <div class="relative min-h-screen py-20 px-4 sm:px-8 lg:px-24 overflow-hidden bg-gray-50">
 
         <!-- Background Elements -->
