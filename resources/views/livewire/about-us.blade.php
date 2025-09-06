@@ -1,7 +1,7 @@
 <div>
     <div class="relative h-[400px] w-full">
         <div class="absolute inset-0">
-            <img src="{{ asset('/images/about_us.webp') }}"
+            <img src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                  alt="Worship Service"
                  class="h-full w-full object-cover"
                  style="max-height: 600px;">
@@ -15,9 +15,6 @@
                 <h1 class="text-5xl md:text-6xl font-bold text-white tracking-wide">
                     About Us
                 </h1>
-                <p class="text-xl md:text-2xl pt-3 text-white/90 max-w-3xl">
-                     Our foundational beliefs and divine principles
-                </p>
             </div>
         </div>
     </div>
