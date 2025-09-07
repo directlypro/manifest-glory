@@ -1,11 +1,11 @@
 <section class="relative items-center w-full h-[100vh] md:h-[80vh] overflow-hidden">
     <picture>
         <!-- Desktop image -->
-        <source media="(min-width: 1024px)" srcset="{{ asset('/images/worship_image.webp') }}">
+        <source media="(min-width: 1024px)" srcset="https://ik.imagekit.io/lasptvssd/images/worship_image.webp?updatedAt=1757234712804">
         <!-- Tablet image -->
-        <source media="(min-width: 640px)" srcset="{{ asset('/images/worship_image.webp') }}">
+        <source media="(min-width: 640px)" srcset="https://ik.imagekit.io/lasptvssd/images/worship_image.webp?updatedAt=1757234712804">
         <!-- Mobile image -->
-        <img src="{{ asset('/images/worship_image.webp') }}" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
+        <img src="https://ik.imagekit.io/lasptvssd/images/worship_image.webp?updatedAt=1757234712804" alt="Worship Image" class="object-cover w-full h-full" loading="lazy">
     </picture>
     <!-- Overlay -->
     <div class="absolute inset-0"></div>

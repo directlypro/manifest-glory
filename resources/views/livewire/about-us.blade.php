@@ -15,6 +15,7 @@
                 <h1 class="text-5xl md:text-6xl font-bold text-white tracking-wide">
                     About Us
                 </h1>
+                
             </div>
         </div>
     </div>

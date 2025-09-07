@@ -160,7 +160,7 @@
             <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
                 <!-- Gallery Image 1 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="{{ asset('/images/retreat_image1.webp') }}"
+                    <img src="https://ik.imagekit.io/lasptvssd/images/retreat_image1.webp?updatedAt=1757234699033"
                         alt="Prayer Retreat"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -169,7 +169,7 @@
 
                 <!-- Gallery Image 2 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="{{ asset('/images/hinking_image.webp') }}"
+                    <img src="https://ik.imagekit.io/lasptvssd/images/hinking_image.webp?updatedAt=1757234704009"
                         alt="Hiking Trip"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -178,7 +178,7 @@
 
                 <!-- Gallery Image 3 -->
                 <div class="relative group overflow-hidden rounded-xl aspect-square">
-                    <img src="{{ asset('/images/baptism.webp') }}"
+                    <img src="https://ik.imagekit.io/lasptvssd/images/baptism.webp?updatedAt=1757234711763"
                         alt="Baptism"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
