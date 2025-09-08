@@ -76,7 +76,7 @@
                 <div class="group relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg rounded-lg p-8">
                     <div>
                         <div class="relative mb-6">
-                            <img src="{{ asset('/images/leigh.jpg') }}"
+                            <img src=""
                                   alt="Leigh Mahoko"
                                   class="w-full h-110 object-cover rounded-lg shadow-md">
                         </div>
