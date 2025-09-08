@@ -5,6 +5,9 @@
     <div x-data="{
             show: @entangle('showEventPopup'),
             init() {
+                // Only auto-open the popup on the client if the server permits it (event is in the future)
+                if (!this.show) return;
+
                 // Check if popup has been shown before
                 if (!localStorage.getItem('popupShown')) {
                     // Set timeout for 5 seconds

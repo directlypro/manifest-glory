@@ -12,11 +12,9 @@ class NavigationBar extends Component
 
     public function mount()
     {
-        // Check if the event date has passed
-        $shouldShow = Carbon::parse($this->eventDate)->isFuture();
-
-        // Initial state is false, will be set to true by JavaScript after delay if conditions are met
-        $this->showEventPopup = false;
+    // Determine whether the event is in the future. If it is, allow the popup to be shown.
+    // If the event date has passed, keep the popup hidden.
+    $this->showEventPopup = Carbon::parse($this->eventDate)->isFuture();
     }
 
     public function closePopup()
