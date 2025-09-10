@@ -48,23 +48,23 @@
                             <p class="text-amber-600 font-semibold mb-6 text-xl">Lead Pastor</p>
 
                             <div class="text-gray-700 leading-relaxed text-left space-y-4">
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Kennedy Mahoko is a seasoned pharmacist with nearly two decades of experience in the pharmaceutical industry and holds a post graduate diploma in business administration from Stellenbosch Business school. He is an ordained pastor of 18 years from Christian Faith Centre under the fatherhood & mentorship of the late Apostle Samuel Seipei.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Kennedy has cultivated a sharp acumen in church planting & evangelism. Vision for Manifest Glory was birthed in 2003 through a God encounter, it is a global church planting and leadership development organization focused on discipling nations and equipping a generation to manifest the glory of Christ.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Since 2007 he has successfully planted three churches and continues to operate with a strong apostolic mantle and prophetic unction. His calling is clear: to plant churches, to train, develop, and release apostles, prophets, teachers, evangelists & pastors who will influence the world—not just church leaders, but from every sphere of society.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Kennedy is known for his strategic mindset, spiritual & revelatory depth, and a leadership style that blends insight, inspiration, and impact. He's especially gifted in identifying and nurturing potential in others, often described as someone who can see diamonds while others still see dust.
                                 </p>
 
-                                <p class="text-sm font-medium text-amber-700">
+                                <p class="text-m font-medium text-amber-700">
                                     Kennedy brings a rare blend of precision, purpose, and prophetic clarity. He is passionate about raising transformational leaders, building systems that sustain church & personal growth, and ensuring that the glory of God is not just a message—but a lifestyle.
                                 </p>
                             </div>
@@ -78,7 +78,7 @@
                         <div class="relative mb-6">
                             <img src=""
                                   alt="Leigh Mahoko"
-                                  class="w-full h-110 object-cover rounded-lg shadow-md">
+                                  class="w-full h-64 object-cover rounded-lg shadow-md">
                         </div>
 
                         <div class="text-center">
@@ -86,23 +86,23 @@
                             <p class="text-amber-600 font-semibold mb-6 text-xl">Co-Founder & Overseer</p>
 
                             <div class="text-gray-700 leading-relaxed text-left space-y-4">
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Born in Mthatha, in the Eastern Cape of South Africa, Mrs. Lithakazi Mahoko is a devoted servant of the Lord who ministers alongside her husband. She is the co-founder of Manifest Glory Global, a church planting organization where she plays a vital role in pastoral care—offering shepherding and counseling with compassion and wisdom.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Drawing strength from her distinguished career in quality assurance within global pharmaceutical companies, as well as her extensive charitable work, Mrs. Mahoko brings a unique blend of professional excellence and heartfelt service to every area of her ministry.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     Her passion lies in nation building, particularly in developing countries, where she is committed to transforming the trajectory of youth development and empowerment. She holds a Master's Degree from the University of Cape Town and is currently pursuing a degree in Theology.
                                 </p>
 
-                                <p class="text-sm">
+                                <p class="text-m">
                                     In addition to her ministerial work, she serves as a director of several non-profit organizations focused on youth mentorship and development.
                                 </p>
 
-                                <p class="text-sm font-medium text-amber-700">
+                                <p class="text-m font-medium text-amber-700">
                                     Mrs. Mahoko continues to champion a vision of holistic transformation—spiritually, socially, and economically—aspiring to making a lasting impact both locally and globally.
                                 </p>
                             </div>
