@@ -1,4 +1,4 @@
-<section class="relative items-center w-full h-[100vh] md:h-[80vh] overflow-hidden">
+<div class="relative items-center w-full h-[100vh] md:h-[80vh] overflow-hidden">
     <picture>
         <!-- Desktop image -->
         <source media="(min-width: 1024px)" srcset="https://ik.imagekit.io/lasptvssd/images/worship_image.webp?updatedAt=1757234712804">
@@ -17,10 +17,43 @@
             <p class="text-xl md:text-3xl mb-4 md:mb-6 font-medium text-white/90">Join us in worship and fellowship</p>
             <div class="mb-8 md:mb-10">
             </div>
-            <a href="#" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+            <button wire:click="openModal" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
                 Plan a Visit
-            </a>
+            </button>
         </div>
     </div>
 
-</section>
+</div>
+
+<!-- Modal -->
+@if($showModal)
+<div x-data x-on:keydown.escape.window="$wire.closeModal()" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm" wire:click="closeModal">
+    <div class="relative w-full max-w-4xl mx-4 bg-white rounded-2xl shadow-2xl max-h-[90vh] overflow-hidden" wire:click.stop>
+        <div class="flex items-center justify-between p-6 border-b border-gray-200 bg-gradient-to-r from bg-amber-200 to-amber-400 text-white">
+            <h2 class="text-2xl font-bold">
+                Plan Your Visit
+            </h2>
+            <button wire:click="closeModal" class="text-white hover:text-gray-200 transition-colors duration-200 text-3xl font-light leading-none">
+                &times;
+            </button>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="p-6 overflow-y-auto max-h-[calc(90vh-100px)]">
+            <div class="mb-4 text-center">
+                <p class="text-gray-600 text-lg">We're excited to welcome you to Manifest Glory Church! Please fill out the form below to plan your visit.</p>
+            </div>
+
+            <!-- Embedded Form -->
+            <div class="w-full">
+                <iframe
+                    aria-label='Plan a visit at Manifest Glory Church'
+                    frameborder="0"
+                    style="height:500px;width:100%;border:none;"
+                    src='https://forms.zohopublic.com/financemanifestg1/form/PlanavisitatManifestGloryChurch/formperma/oDgGAu7sV0dijGDDKvhZeKWKLrmn3le9I02V7Wn3I4I'>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+@endif
