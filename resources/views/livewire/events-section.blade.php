@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <!-- Combined Cell Group -->
+            <!-- Combined Cell Group --> 
             <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-100">
                 <div class="relative h-48 overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 z-10"></div>
