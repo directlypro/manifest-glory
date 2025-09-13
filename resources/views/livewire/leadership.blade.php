@@ -38,9 +38,9 @@
                 <div class="group relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg rounded-lg p-8">
                     <div>
                         <div class="relative mb-6">
-                            <img src=""
+                            <img src="https://ik.imagekit.io/lasptvssd/images/pastor.jpg?updatedAt=1757796242907"
                                   alt="Kennedy Mahoko"
-                                  class="w-full h-64 object-cover rounded-lg shadow-md">
+                                  class="w-full h-full object-cover rounded-lg shadow-md">
                         </div>
 
                         <div class="text-center">
@@ -76,9 +76,9 @@
                 <div class="group relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-100 shadow-lg rounded-lg p-8">
                     <div>
                         <div class="relative mb-6">
-                            <img src=""
+                            <img src="https://ik.imagekit.io/lasptvssd/images/pastor_wife.jpg?updatedAt=1757796242941"
                                   alt="Leigh Mahoko"
-                                  class="w-full h-64 object-cover rounded-lg shadow-md">
+                                  class="w-full h-full object-cover rounded-lg shadow-md">
                         </div>
 
                         <div class="text-center">
