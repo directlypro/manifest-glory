@@ -27,7 +27,7 @@
 
 <!-- Modal -->
 @if($showModal)
-<div x-data x-on:keydown.escape.window="$wire.closeModal()" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm" wire:click="closeModal">
+<div x-data x-on:keydown.escape.window="closeModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm" wire:click="closeModal">
     <div class="relative w-full max-w-4xl mx-4 bg-white rounded-2xl shadow-2xl max-h-[90vh] overflow-hidden" wire:click.stop>
         <div class="flex items-center justify-between p-6 border-b border-gray-200 bg-gradient-to-r from bg-amber-200 to-amber-400 text-white">
             <h2 class="text-2xl font-bold">
@@ -43,6 +43,7 @@
             <div class="mb-4 text-center">
                 <p class="text-gray-600 text-lg">We're excited to welcome you to Manifest Glory Church! Please fill out the form below to plan your visit.</p>
             </div>
+            
 
             <!-- Embedded Form -->
             <div class="w-full">
