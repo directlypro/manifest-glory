@@ -43,6 +43,7 @@
             <div class="mb-4 text-center">
                 <p class="text-gray-600 text-lg">We're excited to welcome you to Manifest Glory Church! Please fill out the form below to plan your visit.</p>
             </div>
+
             
 
             <!-- Embedded Form -->
