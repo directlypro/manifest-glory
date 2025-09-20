@@ -53,7 +53,7 @@
                     </a>
 
                     <!-- Secondary Button -->
-                    <a href="#"
+                    <a href="https://forms.zohopublic.com/financemanifestg1/form/PlanavisitatManifestGloryChurch/formperma/oDgGAu7sV0dijGDDKvhZeKWKLrmn3le9I02V7Wn3I4I"
                         class="inline-flex items-center text-white hover:text-amber-300 px-8 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white/40 hover:border-white/60"
                         style="background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
                         <svg class="w-6 h-6 mr-3 transform hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

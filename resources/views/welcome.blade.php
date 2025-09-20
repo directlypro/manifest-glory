@@ -18,6 +18,5 @@
         <livewire:banking-details />
         <livewire:events-section />
         <livewire:footer-section />
-
     </body>
 </html>

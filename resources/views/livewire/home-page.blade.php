@@ -17,9 +17,9 @@
             <p class="text-xl md:text-3xl mb-4 md:mb-6 font-medium text-white/90">Join us in worship and fellowship</p>
             <div class="mb-8 md:mb-10">
             </div>
-            <button wire:click="openModal" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
+            <a href="https://forms.zohopublic.com/financemanifestg1/form/PlanavisitatManifestGloryChurch/formperma/oDgGAu7sV0dijGDDKvhZeKWKLrmn3le9I02V7Wn3I4I" class="inline-block bg-gradient-to-r from-amber-500 to-red-500 text-white hover:from-amber-600 hover:to-red-600 px-8 py-4 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg ring-2 ring-amber-200/40 hover:ring-4 hover:ring-amber-200/60" style="filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.3));">
                 Plan a Visit
-            </button>
+            </a>
         </div>
     </div>
 
@@ -44,7 +44,7 @@
                 <p class="text-gray-600 text-lg">We're excited to welcome you to Manifest Glory Church! Please fill out the form below to plan your visit.</p>
             </div>
 
-            
+
 
             <!-- Embedded Form -->
             <div class="w-full">
