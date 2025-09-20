@@ -5,6 +5,7 @@
     <div class="absolute top-20 left-10 w-72 h-72 bg-amber-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
     <div class="absolute top-40 right-10 w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
 
+    {{-- For all the images related to events I suggest that you add a single element that will pull data from the database and populate the view with the number of images that are provided  --}}
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-black mb-4">Event Details</h2>
@@ -16,6 +17,7 @@
             <p class="text-xl text-gray-600 pt-4">Join us for these special gatherings</p>
         </div>
 
+        {{--  --}}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Worship Night -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-100">
@@ -83,7 +85,7 @@
                 </div>
             </div>
 
-            <!-- Combined Cell Group --> 
+            <!-- Combined Cell Group -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-amber-100">
                 <div class="relative h-48 overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 z-10"></div>
